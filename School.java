@@ -1,7 +1,7 @@
 class School {
 
 	
-
+	//dummy commit
 	private String name;
 	private int schoolNumber;
 	private String schoolAddress;
