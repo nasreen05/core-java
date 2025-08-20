@@ -1,0 +1,19 @@
+31/7/25---------------------------------------------------->
+
+1. create 10 class with private variables, setter, getter, 
+in each runner class create array of class type with size of 5 insertion data into array using for loop
+ print the array value?
+ 
+ 
+ 5/8/25----------------------------------------------------->
+ 
+ 1. create 5 class each class has 5 parameterized  constructor along with constructor chainnig .
+ in runner class create 5 object of each classs using 5 different parameter constructor .
+ print the value of this property.
+ 
+ 8/6/25------------------------------------------------------->
+ 
+ 
+ create a class write 5, switch condition
+ create one class has another class
+ In runner initalize and print the value
