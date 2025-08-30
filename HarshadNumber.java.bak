@@ -1,0 +1,22 @@
+public class HarshadNumber {
+    public static void main(String[] args) {
+        
+        int number = 18;   // example number
+        int temp = number;
+        int sum = 0;
+        
+        // Find sum of digits
+        while (temp > 0) {
+            int digit = temp % 10;  // extract last digit
+            sum = sum + digit;      // add digit to sum
+            temp = temp / 10;       // remove last digit
+        }
+        
+        // Check if divisible
+        if (number % sum == 0) {
+            System.out.println(number + " is a Harshad Number");
+        } else {
+            System.out.println(number + " is NOT a Harshad Number");
+        }
+    }
+}

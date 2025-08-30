@@ -1,0 +1,24 @@
+public class LargestDigit {
+    public static void main(String[] args) {
+        
+        int number = 5839724;   // example number
+        int largest = 0;
+        
+        int temp = number;
+        
+        // Loop through each digit
+        while (temp > 0) {
+            int digit = temp % 10;  // extract last digit
+            
+            // Check if this digit is larger
+            if (digit > largest) {
+                largest = digit;
+            }
+            
+            temp = temp / 10;  // remove last digit
+        }
+        
+        System.out.println("Number: " + number);
+        System.out.println("Largest digit = " + largest);
+    }
+}

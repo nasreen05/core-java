@@ -1,0 +1,21 @@
+public class PerfectNumber {
+    public static void main(String[] args) {
+        // Number to check
+        int number = 28;  
+        int sum = 0;
+
+        // Find divisors and calculate sum
+        for (int i = 1; i <= number / 2; i++) {
+            if (number % i == 0) {  // check divisor
+                sum = sum + i;
+            }
+        }
+
+        // Check if perfect number
+        if (sum == number) {
+            System.out.println(number + " is a Perfect Number.");
+        } else {
+            System.out.println(number + " is NOT a Perfect Number.");
+        }
+    }
+}

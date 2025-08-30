@@ -1,0 +1,22 @@
+public class CountDigitString {
+    public static void main(String[] args) {
+        
+        // Example string (hardcoded)
+        String str = "Java123Programming2025";
+        
+        int count = 0;
+        
+        // Loop through each character
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            
+            // Check if character is a digit
+            if (ch >= '0' && ch <= '9') {
+                count++;
+            }
+        }
+        
+        System.out.println("String: " + str);
+        System.out.println("Number of digits = " + count);
+    }
+}
